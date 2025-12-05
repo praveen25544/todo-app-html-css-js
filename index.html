@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Amazing Todo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>📝 Todo List</h2>
+
+    <div class="input-box">
+      <input type="text" id="todoInput" placeholder="Write a task...">
+      <button id="addBtn">Add</button>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-type="all">All</button>
+      <button class="filter" data-type="pending">Pending</button>
+      <button class="filter" data-type="completed">Completed</button>
+    </div>
+
+    <ul id="todoList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
